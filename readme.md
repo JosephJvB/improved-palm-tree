@@ -1,8 +1,15 @@
 # Yo
 
+My decision:
+1. Serverless + Serverless offline is best.
+    - Serverless offline supports, Node, Python, Ruby. Dotnet and Go are off the menu. Kind of a shame actually
+    - Let's use nodejs with the intention of trying typescript in the future?
+
+
 Im trying to learn aws lambdas. What have we got so far?
 Mostly about: how to set up lambdas locally
 I clicked thru making a lambda on aws console - that was easy enough
+
 
 ### Local
 Local boils down to the tool you choose.
@@ -20,8 +27,9 @@ Both require a .yml file for configuration
     - PRO: can use plugins that can host functions
     - CON: host plugin doesnt support dotnet core
     - QUESTIONS
-        - does it need docker desktop running?
-        - how fast is serverless offline plugin? (with compatable project: ie, not dotnet core)
+        - does it need docker desktop running? No
+        - how fast is serverless offline plugin? (with compatable project: ie, not dotnet core) Very fast, 7ms response
+
 
 What did I REALLY learn about AWS Lambda / Azure Functions?
 - Developer tool experience
@@ -31,11 +39,14 @@ What did I REALLY learn about AWS Lambda / Azure Functions?
 
 Another thought I had: Google AWS Microsoft, big three western software companies. Each has their own cloud services - developer focused. Microsoft and Google have their own programming languages, AWS doesnt? I wonder if they would create one.
 
+
 Maybe I should have started with this one:
 https://www.youtube.com/watch?v=bih5b3C1nqc
 
+
 I think watching someone do setup for the first time is good
 THEN you can start reading the docs
+
 
 Hey how is this for an idea.
 Nodejs is C++
