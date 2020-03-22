@@ -1,0 +1,21 @@
+{
+  "name": "sls",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sls": "sls",
+    "start": "npm run sls invoke local -- -f hello",
+    "serve": "npm run sls offline"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "serverless": "^1.67.0"
+  },
+  "devDependencies": {
+    "serverless-offline": "^6.0.0"
+  }
+}
